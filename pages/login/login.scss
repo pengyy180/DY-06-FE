@@ -1,0 +1,171 @@
+.page{
+ 
+  width: 100%;
+  height: 100vh;
+  // background-color: #282828;
+}
+.uploadimg{
+	display: flex;
+	align-items: center;
+	width: 100px;
+	margin: 10px auto;
+}
+.loginlogo{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	margin:10px auto;
+	image{
+		width: 90px;
+		height: 90px;
+	}
+}
+.title{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #000;
+	letter-spacing: .05333rem;
+}
+/* 填写 */
+.input-info{
+  padding: 0 .8rem;
+  height: 240rpx;
+  margin-top: 40px;
+  .info{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100rpx;
+	background-color: #31395e;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 10px;
+    // border-bottom: 2rpx solid #f6f6f6;
+    input{
+      width: 100%;
+      height: 100%;
+      font-size: 26rpx;
+      color: #fff;
+    }
+	::v-deep .uni-input-placeholder{
+		color: #fff;
+	}
+	::v-deep .uni-input-input{
+		color: #008eff;
+	}
+  }
+  
+}
+.input-info2{
+	height: 490rpx;
+	margin-top: 10px;
+	.info2{
+		  text-align: left;
+		  justify-content: left;
+		  color: #fff;
+		  font-size: 26rpx;
+		  // background-color: transparent;
+		  border-bottom: 2rpx solid #424041;
+		  .more{
+			  width: 30%;
+			  text-align: center;
+			  text{
+				  color: #008eff;
+				  margin-right: 5px;
+			  }
+		  }
+	}
+}
+/* 按钮 */
+.btn-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6%;
+  height: 100rpx;
+  margin-top: 50rpx;
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100rpx;
+	background:#0ea2ff;
+	border-radius: 30px;
+    // background: linear-gradient(to right,$base,$change-clor);
+    color: #FFFFFF;
+    font-size: 28rpx;
+
+  }
+}
+/* 操作 */
+.operation{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  // justify-content: left;
+  padding: 0 6%;
+  height: 80rpx;
+  color: #000;
+  text{
+    font-size: 28rpx;
+	color: #000;
+	margin-right: 10px;
+  }
+}
+
+/* 其他 */
+.other-ways{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80rpx;
+  margin-top: 100rpx;
+  text{
+    font-size: 28rpx;
+    color: #999999;
+  }
+}
+.other-ways::after{
+  content: "";
+  width: 36%;
+  height: 2rpx;
+  background-color: #EEEEEE;
+}
+.other-ways::before{
+  content: "";
+  width: 36%;
+  height: 2rpx;
+  background-color: #EEEEEE;
+}
+/* 登录方式 */
+.login-way{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200rpx;
+  .way{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    image{
+      width: 100rpx;
+      height: 100rpx;
+    }
+    text{
+      font-size: 28rpx;
+      color: #959595;
+      margin-top: 20rpx;
+    }
+  }
+}

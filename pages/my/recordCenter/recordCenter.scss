@@ -1,0 +1,62 @@
+::v-deep .u-navbar__content__title{
+	color:	#e6b98a;
+}
+::v-deep .u-border-bottom{
+	border-color: #e6b98a !important;
+}
+.topher{
+	width: 100%;
+	height: 44px;
+}
+.page{
+  width: 100%;
+  height: 100vh;
+  background-color: #373536;
+}
+.imgicon{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	align-content: center;
+	flex-wrap: wrap;
+	image{
+		width: 45px;
+		height: 45px;
+		margin:  0 auto;
+	}
+	.name{
+		width: 100%;
+		text-align: center;
+		margin: 10px 0;
+	}
+	.name2{
+		width: 100%;
+		text-align: center;
+		font-weight: 700;
+	}
+}
+.wallet{
+	width: 100%;
+
+	.dh{
+		width: 300px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin: 0 auto;
+		background-color: #f3c7a2;
+		color: #000;
+		margin-bottom: 15px;
+	}
+	.cz{
+		width: 300px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin: 0 auto;
+		border: 0.05333rem solid #f3c7a2;
+		color: #f3c7a2;
+	}
+}

@@ -1,0 +1,269 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	// background-color: #1a253f;
+}
+.u-nav-slot{
+			display: flex;
+			align-items: center;
+			color: #fff;
+		}
+		.indextop{
+			width: 100%;
+			height: 44px;
+		}
+.bgmodal{
+	width: 375px;
+	height: 200px;
+	background:#1a253f;
+	display: flex;
+	// align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	flex-wrap: wrap;
+	.title{
+		margin-top: 50px;
+		color:#3b9dfd;
+	}
+	
+}
+.pay-password{
+
+	display: flex;
+	align-items: center;
+	width: 90%;
+	height: 80rpx;
+	margin: 20rpx auto;
+	border: 2rpx solid $base;
+	// background:#1a253f;
+	color: #fff;
+	.list{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 16.666%;
+		height: 100%;
+		border-right: 2rpx solid #EEEEEE;
+		text{
+			font-size: 32rpx;
+		}
+	}
+	.list:nth-child(6){
+		border-right: none;
+	}
+}
+
+
+.head-bg{
+	position: relative;
+	width: 100%;
+	height: 300rpx;
+	background: #0e72be;
+	.list{
+		display: flex;
+		align-items: center;
+		color: #FFFFFF;
+		font-size: 16px;
+		.left{
+			width: 30%;
+			text-align: center;
+		}
+		.right{
+			.ccc{
+				color: #FFFFFF;
+				font-size: 12px;
+			}
+		}
+	}
+	.head-user{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 100rpx;
+		.user{
+			display: flex;
+			align-items: center;
+			image{
+				width: 70rpx;
+				height: 70rpx;
+				border-radius: 100%;
+			}
+			text{
+				font-size: 28rpx;
+				color: #FFFFFF;
+				margin-left: 20rpx;
+			}
+		}
+		.exchange{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 28rpx;
+				color: #FFFFFF;
+			}
+		}
+	}
+	.wallet-balance{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 200rpx;
+		.wallet{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text{
+				font-size: 30rpx;
+				color: #FFFFFF;
+			}
+			.number{
+				font-size: 60rpx;
+				margin-top: 10rpx;
+				// font-weight: bold;
+			}
+		}
+	}
+	.bg{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 40rpx;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+/* 钱包充值 */
+.wallet-recharge{
+	width: 100%;
+	// background-color: #1a253f;
+	.recharge-title{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 100rpx;
+		text{
+			font-size: 30rpx;
+			font-weight: bold;
+			color: #222222;
+		}
+	}
+	.recharge-list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0 4% 10rpx;
+		.list{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 98%;
+			height: 100rpx;
+			background-color: #FFFFFF;
+			border: 2rpx solid #EEEEEE;
+			border-radius: 10rpx;
+			margin-bottom: 20rpx;
+			.price{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				text{
+					font-size: 32rpx;
+					font-weight: bold;
+					color: #555555;
+				}
+			}
+			.give{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				margin-top: 10rpx;
+				text{
+					font-size: 26rpx;
+					color: #959595;
+				}
+			}
+		}
+		.action{
+			background-color: $rgba-02;
+			border: 2rpx solid $base;
+			.price{
+				text{
+					color: $base;
+				}
+			}
+			.give{
+				text{
+					color: $base;
+				}
+			}
+		}
+	}
+}
+
+
+/* 充值按钮 */
+.recharge-btn{
+	// position: fixed;
+	// left: 0;
+	// bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100rpx;
+	// background-color: #1a253f;
+	.btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		color: #FFFFFF;
+		font-size: 28rpx;
+		background-color:#3b9dfd;
+		border-radius: 70rpx;
+		box-shadow: 0 10rpx 10rpx #3b9dfd;
+	}
+	.btn2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		color: #FFFFFF;
+		font-size: 28rpx;
+		background-color: #959595;
+		border-radius: 70rpx;
+		box-shadow: 0 10rpx 10rpx #959595;
+	}
+}
+.iconlist{
+	width: 100%;
+	padding: 0 4%;
+	.list{
+		width: 100%;
+		height: 100rpx;
+		display: flex;
+		// justify-content: center;
+		border-bottom: 2rpx solid #d7d5d5;
+		align-items: center;
+		image{
+			width: 60rpx;
+			height: 60rpx;
+			margin-right: 20rpx;
+		}
+	}
+}
